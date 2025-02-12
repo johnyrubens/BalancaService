@@ -1,0 +1,59 @@
+# Arquivos do ambiente virtual
+venv/
+.env/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuração de ambiente
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e dumps
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+
+# Dependências
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+.coverage
+.tox/
+.nox/
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# Configuração de testes
+pytest_cache/
+
+# Bancos de dados e credenciais
+*.sqlite3
+*.db
+*.pkl
+*.pem
+*.key
+secrets.json
